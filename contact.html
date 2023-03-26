@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/39c4f379f1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navigation">
+
+        <div class="nav-left">
+            <div class="logo">AllBlogs</div>
+            <ul class="info">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <form class="nav-right" action="/search.html" method="get">
+
+                <input type="text" class="search" name="query" id="" placeholder="Enter your Search">
+                <button class="btn"> <span><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span></button>
+            </form>
+        </div>
+
+    </nav>
+
+
+    <main>
+        <div class="main-contact">
+            <h2>Say Hello</h2>
+            <form action="">
+                <div class="form-contact">
+                    <div class="formbox">
+                        <input type="text" name="name" class="form" placeholder="Your Name" id="name">
+                    </div>
+                    <div class="formbox">
+                        <input type="email" name="email" class="form" placeholder="E-mail" id="email">
+                    </div>
+                    <div class="formbox">
+                        <input type="number" name="number" class="form" placeholder="Your Number" id="number">
+                    </div>
+                    <div class="formbox">
+                        <textarea name="message" id="message" cols="30" rows="10" class="form"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="formbox-btn">
+                        <input class="btn-contact" type="submit" value="Submit">
+                        <input class="btn-contact" type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

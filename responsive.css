@@ -1,0 +1,83 @@
+@media screen and (max-width:800px){
+    .logo{
+        right: 0vw;
+    }
+    .nav-left li {
+        font-weight: normal;
+        font-size: medium;
+    }
+    .nav-right {
+        padding: 0vw 0vw;
+    }
+    .search {
+        width: 20vw;
+        height: 2vh;
+        margin: 0vw 2vw;
+    }
+    .content-right h1 {
+        font-size: xx-large;
+    }
+    .article h3 {
+        right: 8vw;
+    }
+}
+@media screen and (max-width:800px){
+    .navigation {
+    height: 69px;
+    }
+    .nav-left {
+        flex-direction: column;
+    }
+    .nav-left li {
+        font-weight: bold;
+    }
+    .search{
+        width: 29vw;
+        position: relative;
+        bottom: 4vw;
+        right: 4vw; 
+    }
+    .btn{
+        position: relative;
+        bottom: 4vw;
+        right: 4vw; 
+    }
+    .content-right h1 {
+        font-size: x-large;
+        margin-top: 7vw;
+    }
+    .content-left p {
+        max-width: 100%;
+        margin: 7vw 0vw;
+    }
+    .main h1 {
+        padding: 5vw 0vw;
+        font-size: x-large;
+    }
+    .article h3 {
+        font-size: larger;
+    }
+    .article p {
+        max-width: 90%;
+        font-size: smaller;
+    }
+    .main-contact h2 {
+        right: 0vw;
+        font-size:xx-large;
+        padding: 5vw 0vw;
+        margin: 14vw auto;
+    }
+    .form-contact {
+        width: 90%;
+        left: 2vw;
+    }
+    .form{
+        left: 8vw;
+    }
+    .btn-contact{
+        left: 19vw;
+    }
+
+    
+    
+}

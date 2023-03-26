@@ -1,0 +1,69 @@
+
+html{
+    overflow: hidden;
+}
+.main-contact h2{
+        /* background-color: rgb(249, 174, 249); */
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 2vw 0vw;
+        margin: 4vw auto;
+        font-size: xxx-large;
+        position: relative;
+        right: 33vw;
+}
+.form-contact{
+    /* background-color: rgb(246, 211, 246); */
+    width: 50%;
+    margin: auto;
+    padding: 1vw;
+    position: relative;
+    left: 13vw;
+    display: flex;
+    flex-direction: column;
+    bottom: 12vw;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+html::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.almirall.com/documents/4257831/4260072/Hero+Contact+us.jpg/2f1742ed-017b-7417-1b37-5c9dc7f73491?t=1588253783813');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+.form{
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw 0vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 1vw;
+
+}
+.btn-contact{
+    width: 20%;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin: 1vw 3vw;
+    position: relative;
+    left: 10vw;
+    cursor: pointer;
+    font-size: medium;
+}
+::placeholder{
+    font-size: larger;
+}
+.btn-contact:hover{
+    background-color: rgb(200, 198, 198);
+}
